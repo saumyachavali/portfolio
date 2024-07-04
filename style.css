@@ -229,6 +229,39 @@ font-size: 20px;
 }
 
 
+.para1{
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+.para2{
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 4s 2s ease-in forwards;
+}
+
+.para3{
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 5s 2s ease-in forwards;
+}
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 /* contact me page */
 
